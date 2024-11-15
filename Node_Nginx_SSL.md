@@ -43,17 +43,16 @@ ctrl+C
 ```
 sudo npm i pm2 -g
 pm2 start app (or whatever your file name)
+pm2 startup ubuntu
+pm2 status
+pm2 logs (Show log stream)
+pm2 save
+pm2 restart app
 
 # Other pm2 commands
 pm2 show app
-pm2 status
-pm2 restart app
 pm2 stop app
-pm2 logs (Show log stream)
 pm2 flush (Clear logs)
-
-# To make sure app starts when reboot
-pm2 startup ubuntu
 ```
 ### You should now be able to access your app using your IP and port. Now we want to setup a firewall blocking that port and setup NGINX as a reverse proxy so we can access it directly using port 80 (http)
 
