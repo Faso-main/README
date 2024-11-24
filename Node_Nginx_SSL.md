@@ -50,6 +50,7 @@ pm2 save
 pm2 restart app
 
 # Other pm2 commands
+pm2 delete 0(id in _list)
 pm2 show app
 pm2 stop app
 pm2 flush (Clear logs)
