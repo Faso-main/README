@@ -42,7 +42,7 @@ ctrl+C
 ## 6. Setup PM2 process manager to keep your app running
 ```
 sudo npm i pm2 -g
-pm2 start app (or whatever your file name)
+pm2 start app.json (or whatever your file name)
 pm2 startup ubuntu
 pm2 status
 pm2 logs (Show log stream)
