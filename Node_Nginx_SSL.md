@@ -1,4 +1,4 @@
-# Ububntu base setup
+# Ububtu base setup
 
 sudo apt update
 sudo apt install nodejs
