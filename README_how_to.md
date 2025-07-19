@@ -4,7 +4,7 @@
 
  **Официальная ссылка на стандарты написания Github:** [https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-- 
+---
 
 ![Пример изображения или логотипа](ссылка_на_ваше_изображение.png)
 *(Опционально: добавьте изображение или гифку, демонстрирующую работу проекта)*

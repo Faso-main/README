@@ -12,3 +12,4 @@
 
 ```bash
 pip install pyinstaller
+```

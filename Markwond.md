@@ -1,6 +1,6 @@
 # Пример обучающего документа
 
-### Изображение:
+## Изображение:
 ![Пример изображения](https://www.fabrika-kartin.ru/productimages/canvas/med/75/16/p2zru6p6jwseb9n3.jpg)
 
 *Рис. 1: Картина*
