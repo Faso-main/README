@@ -133,13 +133,15 @@ Editing them might take up to 24 hours
 
 ## 10. Add SSL with LetsEncrypt
 
-```bash
+```
 sudo apt-get install snapd
 sudo snap install core; sudo snap refresh core
 sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 sudo certbot --nginx
+
+sudo snap remove certbot
 
 # Only valid for 90 days, test the renewal process with
 certbot renew --dry-run
