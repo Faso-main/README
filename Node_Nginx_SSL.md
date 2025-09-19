@@ -1,9 +1,11 @@
 # Ububtu base setup
 
+```
 sudo apt update
 sudo apt install nodejs
 sudo apt install npm
 sudo apt install nginx
+```
 
 ## Node_js
 
