@@ -8,6 +8,7 @@ sudo apt install nginx
 
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | nvm install line
+source ~/.bashrc | restart terminal to procede
 nvm install 20.18.0 (your node V)
 ```
 
