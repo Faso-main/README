@@ -5,6 +5,8 @@ sudo apt update
 sudo apt install nodejs
 sudo apt install npm
 sudo apt install nginx
+
+nvm install 20.18.0 (your node V)
 ```
 
 ## Node_js
