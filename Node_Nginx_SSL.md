@@ -91,7 +91,7 @@ sudo apt install nginx
 sudo nano /etc/nginx/sites-available/default
 ```
 
-Add the following to the location part of the server block
+Add the following to the LOCATION part of the server block
 
 ```bash
     server_name yourdomain.com www.yourdomain.com;
