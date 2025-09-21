@@ -58,6 +58,8 @@ ctrl+C
 ```bash
 sudo npm i pm2 -g
 pm2 start app (or whatever your file name)
+pm2 strt YOUR_SCRIPTS.js --name NAME_IN_LIST 
+
 pm2 startup ubuntu
 pm2 status
 pm2 logs (Show log stream)
