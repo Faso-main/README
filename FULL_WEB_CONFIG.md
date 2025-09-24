@@ -37,9 +37,12 @@ sudo ufw status
 
 ### 1. Клонирование проекта
 ```bash
+ssh-keygen
+cat ~/.ssh/id_ed25519.pub
+добавьте публичный ключ в ваш репозиторий на GitHub.
 cd /root
-git clone <ваш-репозиторий> TenderHack
-cd TenderHack
+git clone -b YOUR_BRANCH LINK_TO_REPO
+cd REPO_NAME
 ```
 
 ### 2. Установка зависимостей и сборка
