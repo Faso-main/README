@@ -65,7 +65,7 @@ sudo chmod -R 755 /var/www/faso312
 ```
 
 ## Настройка PostgreSQL 
-## Ссылки (https://github.com/Faso-main/README/blob/main/PostgreSQL.md)
+### link (https://github.com/Faso-main/README/blob/main/PostgreSQL.md)
 
 
 ### 1. Установка PostgreSQL
