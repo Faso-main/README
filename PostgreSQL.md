@@ -19,7 +19,7 @@ sudo systemctl enable postgresql
 
 ### 3. Настройка параметров аутентификации
 ```bash
-sudo nano /etc/postgresql/14/main/postgresql.conf
+sudo nano /etc/postgresql/16/main/postgresql.conf
 ```
 
 Найдите и измените следующие параметры:
@@ -41,7 +41,7 @@ log_filename = 'postgresql-%Y-%m-%d_%H%M%S.log'
 
 ### 4. Настройка доступа (pg_hba.conf)
 ```bash
-sudo nano /etc/postgresql/14/main/pg_hba.conf
+sudo nano /etc/postgresql/16/main/pg_hba.conf
 ```
 
 Добавьте в конец файла:
