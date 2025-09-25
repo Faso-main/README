@@ -17,7 +17,7 @@ sudo systemctl enable postgresql
 
 ## Базовая настройка PostgreSQL
 
-### 3. Настройка параметров аутентификации
+### 3. Настройка параметров аутентификации (замени 16 на свою версию PG)
 ```bash
 sudo nano /etc/postgresql/16/main/postgresql.conf
 ```
@@ -39,7 +39,7 @@ log_directory = '/var/log/postgresql'
 log_filename = 'postgresql-%Y-%m-%d_%H%M%S.log'
 ```
 
-### 4. Настройка доступа (pg_hba.conf)
+### 4. Настройка доступа (pg_hba.conf) (замени 16 на свою версию PG)
 ```bash
 sudo nano /etc/postgresql/16/main/pg_hba.conf
 ```
