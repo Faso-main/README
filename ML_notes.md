@@ -104,7 +104,7 @@
 
 - с учителем, подразумевает понимание намерений с заранее размеченными категориями;
 
-- {'wanna by a house':'intent to buy';'been thinking to get rid of some old stuff':'intent to sell'}
+- {'wanna buy a house':'intent to buy';'been thinking to get rid of some old stuff':'intent to sell'}
 - {'really hate today':'bad';'today seems kinda nice':'good'}
 
 - практика показала
