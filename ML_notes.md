@@ -2,7 +2,7 @@
 
 - https://habr.com/ru/companies/slurm/articles/768806/ 
 
-### basic ML tree
+### Базовое ML tree
 ```markdown
 ### Традиционное машинное обучение
 |__Классификация (Classification)
