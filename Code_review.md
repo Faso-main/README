@@ -81,7 +81,7 @@ if param1 is not int:
     raise ValueError("Invalid parameter")
 
 # Комментарий:
-# Рекомендую использовать not instance(param1, int)
+# Рекомендую использовать not isinstance(param1, int)
 # Иначе будет ошибка
 ```
 
