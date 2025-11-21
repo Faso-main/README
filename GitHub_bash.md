@@ -1,110 +1,144 @@
-# GitHub Command Line (CMD) Cheat Sheet
+# Шпаргалка по Git командам
 
-This guide covers essential Git commands for managing repositories via the command line (CMD).
-
-## Setup & Configuration
+## Базовая настройка
 
 ```bash
-# Set your username (global)
-git config --global user.name "Your Name"
+# Настройка имени пользователя
+git config --global user.name "Ваше Имя"
 
-# Set your email (global)
+# Настройка email
 git config --global user.email "your.email@example.com"
 
-# Check your configuration
+# Просмотр текущих настроек
 git config --list
+```
 
-# Clone a remote repository
-git clone -b main https://github.com/username/repository.git
+## Работа с репозиторием
 
-# Initialize a new local repository
+```bash
+# Клонирование репозитория
+git clone https://github.com/username/repository.git
+
+# Инициализация нового репозитория
 git init
 
-# Link local repo to a remote GitHub repository
-git remote rm origin
+# Добавление удаленного репозитория
 git remote add origin https://github.com/username/repository.git
 
-# Check remote connections
+# Просмотр подключенных репозиториев
 git remote -v
+```
 
-# Check repository status
+## Основные команды
+
+```bash
+# Проверка статуса репозитория
 git status
 
-# Stage all changed files
+# Добавление всех измененных файлов
 git add .
 
-# Stage a specific file
-git add filename.ext
+# Добавление конкретного файла
+git add filename.txt
 
-# Reset last commit 
-git reset HEAD~   
+# Создание коммита
+git commit -m "Описание изменений"
 
-# Commit changes with a message
-git commit -m "Your commit message"
-
-# Push changes to remote (main branch)
+# Отправка изменений на сервер
 git push origin main
 
-# Pull latest changes from remote
+# Загрузка изменений с сервера
 git pull origin main
+```
 
-# List all branches
+## Ветки (Branches)
+
+```bash
+# Просмотр всех веток
 git branch
 
-# Create a new branch
-git branch new-branch-name
+# Создание новой ветки
+git branch new-branch
 
-# Switch to a branch
+# Переключение на ветку
 git checkout branch-name
 
-# Create and switch to a new branch
-git checkout -b new-branch-name
+# Создание и переключение на новую ветку
+git checkout -b new-branch
 
-# Delete a branch (local)
+# Удаление ветки
 git branch -d branch-name
 
-# Push a branch to remote
+# Отправка ветки на сервер
 git push origin branch-name
+```
 
+## Просмотр истории и изменений
 
-# Merge a branch into current branch
-git merge branch-name
-
-# Fetch changes from remote without merging
-git fetch
-
-# Rebase current branch onto another
-git rebase branch-name
-
-# Undo unstaged changes in a file
-git checkout -- filename.ext
-
-# Unstage a file (keep changes)
-git reset HEAD filename.ext
-
-# Amend the last commit
-git commit --amend -m "New commit message"
-
-# Revert a commit (creates new undo commit)
-git revert commit-hash
-
-# View commit history
+```bash
+# Просмотр истории коммитов
 git log
 
-# View changes between commits/branches
+# Просмотр изменений в файлах
 git diff
 
-# Stash changes temporarily
+# Просмотр изменений в конкретном файле
+git diff filename.txt
+```
+
+## Отмена изменений
+
+```bash
+# Отмена изменений в файле (до добавления в stage)
+git checkout -- filename.txt
+
+# Отмена добавления файла в stage
+git reset HEAD filename.txt
+
+# Отмена последнего коммита
+git reset HEAD~
+
+# Изменение последнего коммита
+git commit --amend -m "Новое описание"
+```
+
+## Временное сохранение изменений
+
+```bash
+# Временное сохранение изменений
 git stash
 
-# Apply stashed changes
+# Восстановление сохраненных изменений
 git stash pop
+```
 
-# Force push (use with caution!)
-git push --force origin branch-name
+## Дополнительные команды
 
-# Check Git version
+```bash
+# Проверка версии Git
 git --version
 
-# Get help for any command
+# Получение справки по команде
 git help command
+
+# Принудительная отправка изменений (использовать осторожно!)
+git push --force origin branch-name
+```
+
+## Типовой рабочий процесс
+
+```bash
+# Ежедневная работа
+git status
+git add .
+git commit -m "Описание выполненной работы"
+git pull origin main
+git push origin main
+
+# Создание новой функциональности
+git checkout -b new-feature
+# ... работа над кодом ...
+git add .
+git commit -m "Добавлена новая функциональность"
+git push origin new-feature
+```
