@@ -1,6 +1,7 @@
 # Setup PM2 process manager to keep your app running
 
 ```bash
+sudo apt install npm
 sudo npm i pm2 -g
 pm2 start app (or whatever your file name)
 pm2 startup ubuntu
