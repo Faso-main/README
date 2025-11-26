@@ -1,9 +1,17 @@
 # SSH ключи
 
 ## Сгенерируйте SSH ключ:
-`ssh-keygen`
+```bash
+ssh-keygen
+```
 
 ## Выведите содержимое публичного ключа:
-`cat ~/.ssh/id_ed25519.pub` или `cat ~/.ssh/id_rsa.pub`.
+```bash
+`cat ~/.ssh/id_ed25519.pub`
+``` 
+или 
+```bash
+`cat ~/.ssh/id_rsa.pub`.
+```
 
 ## Добавьте публичный ключ в ваш репозиторий на GitHub.
