@@ -9,8 +9,10 @@
 3. Откройте PowerShell от имени администратора. Введите следующую команду для подключения по SSH: `ssh 11.222.333.44` и введите свой пароль.
 4. Проверьте установку Node.js и npm:
 `node -v` и `npm -v`.
-- `sudo apt install npm`
-- `npm install pm2 -g`
+```bash
+sudo apt install npm
+npm install pm2 -g
+```
 
 6. Сгенерируйте SSH ключ:
 `ssh-keygen`.

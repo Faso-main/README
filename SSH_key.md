@@ -7,11 +7,17 @@ ssh-keygen
 
 ## Выведите содержимое публичного ключа:
 ```bash
-`cat ~/.ssh/id_ed25519.pub`
+cat ~/.ssh/id_ed25519.pub
 ``` 
 или 
 ```bash
-`cat ~/.ssh/id_rsa.pub`.
+cat ~/.ssh/id_rsa.pub
 ```
 
 ## Добавьте публичный ключ в ваш репозиторий на GitHub.
+
+## Менеджер пакетов+процессов
+```bash
+sudo apt install npm
+npm install pm2 -g
+```
