@@ -10,6 +10,7 @@
 
 - **отлично** подходит под задачу FuzzyWuzzi(**или FuzzySearch, rappidfuzz**) (питон библиотека и ее подверсии) [ссылка на рарбочий на данных пример](https://github.com/Faso-main/Practice/tree/main/SmartSearch)
 - **проблемно** fasttext и пытки работы с elasticsearch (неповаротлива, возможно я просто не разобрался)
+- пагинация и какая бывает
 
 ## TenderHack
 
