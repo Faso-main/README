@@ -1,4 +1,7 @@
 # Wireguard usage snippet 
+```bash
+sudo apt install wireguard
+```
 
 ## Copy the config file to WireGuard directory
 ```bash
