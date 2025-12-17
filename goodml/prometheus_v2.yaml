@@ -1,0 +1,33 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  # Prometheus сам себя
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # Face Worker (твой prod-face-worker-1)
+  - job_name: "face-worker"
+    static_configs:
+      - targets: ["host.docker.internal:9143"]
+    metrics_path: /metrics
+    scrape_interval: 10s
+
+  # Sale Worker (твой prod-sale-worker-1)  
+  - job_name: "sale-worker"
+    static_configs:
+      - targets: ["host.docker.internal:9142"]
+    metrics_path: /metrics
+    scrape_interval: 10s
+
+  # Node Exporter (уже работает)
+  - job_name: "node-exporter"
+    static_configs:
+      - targets: ["host.docker.internal:9100"]
+
+  # cAdvisor (уже работает)
+  - job_name: "cadvisor"
+    static_configs:
+      - targets: ["host.docker.internal:8300"]
