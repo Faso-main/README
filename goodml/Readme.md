@@ -8,7 +8,6 @@
 
 ```bash
 ssh mercury                                                           # prod server(конфиги sh на машине)
-ssh -v -p 5022 -i ~/.ssh/mercury.priv ml@85.236.187.222                 # дистанц коннект
 ```
 
 ## Docker
