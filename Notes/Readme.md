@@ -1,5 +1,7 @@
 # My ububntu programm list
 
+- Могу писать себе конфиг под ssh(config) ключи в папке на любой машине .ssh и поднимать их по нику
+
 vscode
 sublime text 					# >subl 
 flameshot
