@@ -19,6 +19,7 @@ sum(increase(detections_total[3h])) by (company_id, device_id) > bool 0
 
 ### Rename by regex
 
+```bash
 ^\{company_id="12e2710a-54d5-484e-82ee-6c7ef52ae465", device_id="(.{4})[^"]*"\}$
 Vandal coffee / $1
 
@@ -45,3 +46,4 @@ TT / $1
 
 ^\{company_id="568b440a-5619-4ac1-89ac-d93b569fe666", device_id="(.{4})[^"]*"\}$
 БлинБери / $1
+```
