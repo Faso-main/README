@@ -22,6 +22,8 @@ neofetch 						# system data visualizing
 cava 							# for audio visualizing
 
 ## New commands
+sudo apt remove                 # uninstall package
+sudo apt autoremove             # auto trash cleanup
 nautilus .						# open file manager in bash
 subl 							# to use instead of nano
 neofetch 						# to get system info
