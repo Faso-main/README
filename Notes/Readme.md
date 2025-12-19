@@ -25,11 +25,14 @@ cava        # for audio visualizing
 
 ## New commands
 
+```bash
+caja .      # file manager in MATE                                                      # prod server(конфиги sh на машине)
 sudo apt remove                 # uninstall package
 sudo apt autoremove             # auto trash cleanup
 nautilus .      # open file manager in bash
 subl        # to use instead of nano
 neofetch       # to get system info
+```
 
 ## What to check
 
