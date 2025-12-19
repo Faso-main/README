@@ -14,7 +14,7 @@ caja .      # file manager in MATE                                              
 ## Docker
 
 ```bash
-docker-compose -f docker-compose.redeploy.yml up -d
+docker compose -f docker-compose.redeploy.yml up -d
 docker logs prod-face-worker-1 --tail 500                               # last X container logs
 docker ps                                                               # list all running containers 
 docker logs -f NAME_OF_SERVICE -n 1000 -t                               # last X container logs 
