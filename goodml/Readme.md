@@ -26,9 +26,9 @@ docker inspect NAME_OF_SERVICE                                          # инф
 
 ## Мониторинг IT-инфраструктуры
 
-Grafana: <http://localhost:13000> <http://192.168.68.2:13000>
-Prometheus: <http://localhost:19090> <http://192.168.68.2:19090>
-
+Grafana: <http://localhost:13000> <http://192.168.68.2:3000/login>
+Prometheus: <http://localhost:19090> <http://192.168.68.2:9090>
+через тунель: <http://192.168.3.71:19090>
 
 ```bash
 ssh -N -R 13000:localhost:3000 -R 19090:localhost:9090 ml2@ml-gooddelo          # тунель с сервера на ноутбук
