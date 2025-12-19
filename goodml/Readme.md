@@ -7,7 +7,8 @@
 - вникнуть в инфру МЛки
 
 ```bash
-ssh mercury                                                           # prod server(конфиги sh на машине)
+ssh mercury
+caja .      # file manager in MATE                                                      # prod server(конфиги sh на машине)
 ```
 
 ## Docker
