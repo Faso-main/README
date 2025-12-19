@@ -27,7 +27,7 @@ docker inspect NAME_OF_SERVICE                                          # инф
 ## Мониторинг IT-инфраструктуры
 
 Grafana: <http://localhost:13000> <http://192.168.68.2:3000/login>
-Prometheus: <http://localhost:19090> <http://192.168.68.2:9090>
+Prometheus: <http://localhost:19090> <http://localhost:19090/targets>
 через тунель: <http://192.168.3.71:19090>
 
 ```bash
