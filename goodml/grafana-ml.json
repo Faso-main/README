@@ -1,0 +1,215 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 6,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "PBFA97CFB590B2093"
+      },
+      "description": "",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "mappings": [
+            {
+              "options": {
+                "0": {
+                  "color": "dark-red",
+                  "index": 0,
+                  "text": "❌"
+                },
+                "1": {
+                  "color": "dark-green",
+                  "index": 1,
+                  "text": "✅"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 17,
+        "w": 19,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {
+          "titleSize": 8
+        },
+        "textMode": "auto"
+      },
+      "pluginVersion": "9.5.2",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "PBFA97CFB590B2093"
+          },
+          "editorMode": "code",
+          "expr": "sum(increase(detections_total[3h])) by (company_id, device_id) > bool 0",
+          "legendFormat": "__auto",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Камеры",
+      "transformations": [
+        {
+          "id": "calculateField",
+          "options": {
+            "alias": "Счеткик",
+            "mode": "reduceRow",
+            "reduce": {
+              "reducer": "count"
+            },
+            "replaceFields": false
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"12e2710a-54d5-484e-82ee-6c7ef52ae465\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "Vandal coffee / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"f5e2bda5-6efb-4760-a8f5-8fc0ab8cff61\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "MOSAIC coffee&tea / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"b8c02f54-8b55-4c48-be30-94db076654a9\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "Карамель / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"25d2e1fc-a82a-44d0-b742-1bb0af8790bc\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "Hammer / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"ca4cf8e7-47ec-4677-ae6f-1226623b3b35\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "Корж / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"f7b397a4-d4f2-45a5-bba1-2a81333fca60\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "КЛЕВЕР ТРАК / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"00b093b3-ec94-4f55-a0d4-d42a7f79b10f\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "БИКО / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"7428eac9-b9a2-462a-81ef-c8ffe7a21631\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "TT / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"568b440a-5619-4ac1-89ac-d93b569fe666\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "БлинБери / $1"
+          }
+        },
+                {
+          "id": "renameByRegex",
+          "options": {
+            "regex": "^\\{company_id=\"4c201a0b-ea93-4e11-ab59-7683f413dc6b\", device_id=\"(.{4})[^\"]*\"\\}$",
+            "renamePattern": "Кто-то новый / $1"
+          }
+        },
+        {
+          "id": "renameByRegex",
+          "options": {}
+        }
+      ],
+      "type": "stat"
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Наличие распознавание за последние 3 часа",
+  "uid": "fdc8818e-c1c7-446e-8295-7cebf7962a4b",
+  "version": 2,
+  "weekStart": ""
+}
