@@ -1,0 +1,380 @@
+[
+{"number": "1",
+	"label": "ОЛВИ, Ракитовское шоссе",
+	"mark": "0f7bc84f",
+    "device_id": "0f7bc84f-938d-4636-b8e4-9f14f3b8a68f",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwZjdiYzg0Zi05MzhkLTQ2MzYtYjhlNC05ZjE0ZjNiOGE2OGYifQ.lHS7xCU8jUOJpNf07HySTb_tpOvlF1xFKS7ZsFp3J30"
+  },
+  {
+    "number": "2",
+	"label": "ОЛВИ, Мехзавод, 3 квартал",
+	"mark": "220a5fd3",
+    "device_id": "220a5fd3-9626-4811-bc41-3a761f97dd73",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMjBhNWZkMy05NjI2LTQ4MTEtYmM0MS0zYTc2MWY5N2RkNzMifQ.QtLU1D3RmDT7DCKHcgoeCGGgISYY93vHm-rMf3vIcbE"
+  },
+  {
+    "number": "3",
+	"label": "ОЛВИ,Ракитовское шоссе",
+	"mark": "2225eb60",
+    "device_id": "2225eb60-1ccc-4be8-93e5-0e4a98ea38e2",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMjI1ZWI2MC0xY2NjLTRiZTgtOTNlNS0wZTRhOThlYTM4ZTIifQ.P2TjYUvg6s8FPunMv1XgCe_OE5Ec_fzfHRy0cQ6yAKQ"
+  },
+  {
+    "number": "4",
+	"label": "ОЛВИ, ул. Мичурина",
+	"mark": "23558511",
+    "device_id": "23558511-0c5e-44b2-9da7-231b875edd18",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMzU1ODUxMS0wYzVlLTQ0YjItOWRhNy0yMzFiODc1ZWRkMTgifQ.iasmBZE7O5GlYSKamfL5rK_gSIat-cftuJJ-Evz5nCA"
+  },
+  {
+    "number": "5",
+	"label": "ОЛВИ, ул. Мичурина",
+	"mark": "23c7a211",
+    "device_id": "23c7a211-46ba-410e-ac53-0e3afbd139f2",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyM2M3YTIxMS00NmJhLTQxMGUtYWM1My0wZTNhZmJkMTM5ZjIifQ.PDKid1gasHI02uvRykUqxcO4vkMT4YNrJ_Q1fz2RLag"
+  },
+  {
+    "number": "6",
+	"label": "ОЛВИ, Мехзавод",
+	"mark": "246d1120",
+    "device_id": "246d1120-cb63-4659-b2eb-1aa4df8b586d",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNDZkMTEyMC1jYjYzLTQ2NTktYjJlYi0xYWE0ZGY4YjU4NmQifQ.jh0RSRgcXJd610frAY8vnbR9zCWYCOlya6gfuJe2e9c"
+  },
+  {
+    "number": "7",
+	"label": "Gideone, бр Коростелевых",
+	"mark":	"24f2314a",
+    "device_id": "24f2314a-3704-4d30-a8fa-56670c9775c0",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGYyMzE0YS0zNzA0LTRkMzAtYThmYS01NjY3MGM5Nzc1YzAifQ.Ehkxh9EpgfdoGQncZO0BfrEvtSsFZyjLUqhtn7Oh-rM"
+  },
+  {
+    "number": "8",
+	"label": "Жигулевское пиво, Гагарина 94",
+	"mark": "267f4cd9",
+	"address": "10.168.10.13/32",
+    "device_id": "267f4cd9-b1ea-47e9-bc62-6da3e97f9319",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNjdmNGNkOS1iMWVhLTQ3ZTktYmM2Mi02ZGEzZTk3ZjkzMTkifQ.gAV6mNw9ZECEEVIpLnCvu6ZkUWB2wzOlqlQKsiErsCA"
+  },
+  {
+    "number": "9",
+	"label": "Жигулевское пиво, Кирова",
+	"mark": "273051ba",
+	"address": "10.168.10.14/32",
+    "device_id": "273051ba-8536-4a22-8679-4e87ccfc3c64",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzMwNTFiYS04NTM2LTRhMjItODY3OS00ZTg3Y2NmYzNjNjQifQ.C5hoCBxHYSJzspdWKxX9YZf7VlCCBqOZfdAYBDoxalc"
+  },
+  {
+    "number": "10",
+	"label":"Mosaic coffee, Чкаловский спуск",
+	"mark":	"277a8372",
+	"address": "10.168.10.2/32",
+    "device_id": "277a8372-1fd0-4941-98f6-e5c8b7c64c72",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzdhODM3Mi0xZmQwLTQ5NDEtOThmNi1lNWM4YjdjNjRjNzIifQ.8H4LEr7uMJeFvB6FFqXsecp-Em9mjZ34apK-Utg2QNk"
+  },
+  {
+    "number": "11",
+	"label": "Жигулевское пиво, Ново-садовая 27",
+	"mark": "2888a6bc",
+	"address": "10.168.10.9/32",
+	"pubkey": "Itg8n7QpSh1dcJiw4JQkAqOZjKIwQzwevevI5HCQ3Q0=",
+    "device_id": "2888a6bc-5b9d-4c55-b88a-1f876c004c95",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyODg4YTZiYy01YjlkLTRjNTUtYjg4YS0xZjg3NmMwMDRjOTUifQ.UwHbnyqzQSu70FBqrMdSp5fEbn29AGRgJdiywFhj8qc"
+  },
+  {
+    "number": "12",
+	"label": "Мясные магазины, Гагарина",
+	"mark": "28bf4139",
+	"address": "10.168.10.10/32",
+	"pubkey": "/HXunzhc+GX4nQXtZOhVV7U3/i3iI97ecpm07rr63c=",
+    "device_id": "28bf4139-9fb9-4be6-8b2f-f8e25099dbcf",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyOGJmNDEzOS05ZmI5LTRiZTYtOGIyZi1mOGUyNTA5OWRiY2YifQ.OjA7oriFgYB3XI3DVIT__kqh4teyELFQNzByQLFgFI0"
+  },
+  {
+    "number": "13",
+	"label": "Мясные магазины, ул. Товарная",
+	"mark": "2974af0b",
+	"address": "10.168.10.11/32",
+	"pubkey": "kgAS0/C5dRIMQBoE1NVl/VQ5x+MeDxO4AVkS021BvkI=",
+    "device_id": "2974af0b-3957-43d7-bbac-f458a483881f",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyOTc0YWYwYi0zOTU3LTQzZDctYmJhYy1mNDU4YTQ4Mzg4MWYifQ.hS3dhX7v4gQdvY6M0TryivZ1RvBAc8xSaCDn4MZ598w"
+  },
+  {
+    "number": "14",
+	"label": "Мясные магазины, Товарная",
+	"mark": "29ad8898",
+	"address": "10.168.10.12/32",
+	"pubkey": "lywit20Ud9iBpJJbjDHw4OZA7Pt4F97AtINgwJYTO3k=",
+    "device_id": "29ad8898-7e64-4848-8ee1-43145df96ecf",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyOWFkODg5OC03ZTY0LTQ4NDgtOGVlMS00MzE0NWRmOTZlY2YifQ.lyUFaQEQ0PmSRwvK_pzWcxnA37XgQ2g-KFuuz_jwsFw"
+  },
+  {
+    "number": "15",
+	"label": "Mosaic coffee, Кинап",
+	"mark": "29e73a9c1",
+	"address": "10.168.10.15/32",
+	"pubkey": "peKHCVnAHuSv0YOzxinjjlWYPHorgWucGhZK1+KFIGs=",
+    "device_id": "29e73a9c-6c4f-4f15-8a61-2bb4d658cf8a",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyOWU3M2E5Yy02YzRmLTRmMTUtOGE2MS0yYmI0ZDY1OGNmOGEifQ.RjogyHXREdfP5ndsAm53rnExelj90a95XN4BzsKzDfA"
+  },
+  {
+    "number": "16",
+	"label": "Hammer, ул. Зои Космодемьянской.",
+	"mark": "2a9da49a",
+	"address": "10.168.10.16/32",
+	"pubkey": "dgzKn7Udl1FWsb2AZxMakY9WqOlPYP5tQnSM26bIrWU=",
+    "device_id": "2a9da49a-c18e-4a85-830a-5ce8aa980f8b",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYTlkYTQ5YS1jMThlLTRhODUtODMwYS01Y2U4YWE5ODBmOGIifQ.rQOjY4hON4E8lQuCN3x9hW_mFyzHyeZyBfvsXeB19vI"
+  },
+  {
+    "number": "17",
+	"label": "Hammer, ул. Революционная",
+	"mark": "2aec3679",
+	"address": "10.168.10.17/32",
+	"pubkey": "",
+    "device_id": "2aec3679-45dd-4b7d-80a5-7d4e28249fce",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYWVjMzY3OS00NWRkLTRiN2QtODBhNS03ZDRlMjgyNDlmY2UifQ.Mn2_Iei6Ep7rYQPPoh4GqqMNQDI4tGOCl38amg-Xab4"
+  },
+  {
+    "number": "18",
+	"label": "Hammer, ул. Советской армии",
+	"mark": "2b340d18",
+	"address": "10.168.10.18/32",
+	"pubkey": "",
+    "device_id": "2b340d18-5bea-45e3-b93d-6d694f987b41",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYjM0MGQxOC01YmVhLTQ1ZTMtYjkzZC02ZDY5NGY5ODdiNDEifQ.dRDUOWuCZ_hptB8JG3HMumvktlR-jVe6BRfCFXwH7Ic"
+  },
+  
+  {
+    "number": "19",
+	"label": "Gideone",
+	"mark": "2c702336",
+	"address":"",
+	"pubkey":"",
+    "device_id": "2c702336-3451-413d-8ed9-3364ebf4ab04",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYzcwMjMzNi0zNDUxLTQxM2QtOGVkOS0zMzY0ZWJmNGFiMDQifQ.LzFijKaQPOfln6VajajsYNxgXh9-TF2T6YP9ioYo4Jo"
+  },
+
+  {
+    "number": "20",
+	"label": "Mosaic coffee, Аквариум",
+	"mark":"2d12596f",
+	"address": "",
+    "device_id": "2d12596f-202b-4634-9f1d-cba5b5926b60",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyZDEyNTk2Zi0yMDJiLTQ2MzQtOWYxZC1jYmE1YjU5MjZiNjAifQ.eNhEig4R36-Vzc5Ezw5s_KQLR9la3A1oKBWEPzUzk_o"
+  },
+  {
+    "number": "21",
+	"label": "Mosaic coffee, ЗИМ",
+	"mark":"2dd6adea",
+	"address": "",
+    "device_id": "2dd6adea-4413-4533-a571-3405d4a1cf63",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyZGQ2YWRlYS00NDEzLTQ1MzMtYTU3MS0zNDA1ZDRhMWNmNjMifQ.fTlt3bh32igliCmXTilQzvwkcuoJ8fJAl36EDgmOHNo"
+  },
+  {
+    "number": "22",
+	"label": "Mosaic coffee, Мичурина 138",
+	"mark":"2e727104",
+	"address": "",
+    "device_id": "2e727104-dd2c-404d-8ed2-052013bfc790",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyZTcyNzEwNC1kZDJjLTQwNGQtOGVkMi0wNTIwMTNiZmM3OTAifQ.OqRxKwVoiGLE6k40ylj8CGkLhTCqGn-YkBXxTsEeq3g"
+  },
+  {
+    "number": "23",
+	"label": "Mosaic coffee, Самолет",
+	"mark":"30ad2132",
+	"address": "",
+    "device_id": "30ad2132-c3c2-4c88-9425-986ca4d7aa3b",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMGFkMjEzMi1jM2MyLTRjODgtOTQyNS05ODZjYTRkN2FhM2IifQ.wmw7XmyqSivu12DwibXPeQxLDuIg0ZEKMgGfkKp9Un8"
+  },
+  {
+    "number": "24",
+	"label": "Mosaic coffee, Аврора",
+	"mark":"30b1762b",
+	"address": "", 
+    "device_id": "30b1762b-a2b9-474d-8e78-ee5b4a79aba8",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMGIxNzYyYi1hMmI5LTQ3NGQtOGU3OC1lZTViNGE3OWFiYTgifQ.nHQaeg4NUuDROPVUqRjYGBVCP4DOzuOY1hr6JDc4aTI"
+  },
+  {
+    "number": "25",
+	"label": "Mosaic coffee, Дом Молодежи",
+	"mark":"30f51f13",
+	"address": "",
+    "device_id": "30f51f13-e7c8-4e96-8834-04beecb9e266",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMGY1MWYxMy1lN2M4LTRlOTYtODgzNC0wNGJlZWNiOWUyNjYifQ.CWCsgeIJDbnk_-3dwQFAFaeFbG01ml5WA0aRlwOeC8I"
+  },
+  {
+    "number": "26",
+	"label": "Суши маркет(Кусь Кусь), Мичурина 138",
+	"mark":"3281b4db",
+	"address": "",
+    "device_id": "3281b4db-c579-4ba6-ab0b-95b2abc0f227",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMjgxYjRkYi1jNTc5LTRiYTYtYWIwYi05NWIyYWJjMGYyMjcifQ.NgwVwcNxkL65styjestcSjkpCx_eKR32pYdpiSX9Cl4"
+  },
+  {
+    "number": "27",
+	"label": "Суши маркет, Солнечная",
+	"mark":"32a1b76a",
+	"address": "",
+    "device_id": "32a1b76a-759e-444e-8f00-8511ff3eca34",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMmExYjc2YS03NTllLTQ0NGUtOGYwMC04NTExZmYzZWNhMzQifQ.Tf_W3vo4cqlQtQOsxICVTnFPW_JeT7z70758xrISK_8"
+  },
+  {
+    "number": "29",
+	"label": "Суши Маркет, Зои Космодемьянской",
+	"mark":"3494feff",
+	"address": "",
+    "device_id": "3494feff-90bc-4c29-9de7-b7bef9c43145",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNDk0ZmVmZi05MGJjLTRjMjktOWRlNy1iN2JlZjljNDMxNDUifQ.8Ed5oGACqdFLedjtI0uO8bTq_Nf6Y9eCn9L_2QosNM8"
+  },
+  {
+    "number": "30",
+	"label": "Суши Маркет, Аврора",
+	"mark":"35bef7a2",
+	"address": "",
+    "device_id": "35bef7a2-cbae-484e-bc3d-bbbae8083af5",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNWJlZjdhMi1jYmFlLTQ4NGUtYmMzZC1iYmJhZTgwODNhZjUifQ.bR98LPrqO8D8lc9vj0b9tuxiyR61WtitM_DXCDk_ZUI"
+  },
+  {
+    "number": "31",
+	"label": "Вандал кофе, кирова 308в1",
+	"mark": "3619bbdc",
+	"address": "10.168.10.31/32",
+	"pubkey": "",
+    "device_id": "3619bbdc-7f20-4064-8884-38f5a136717d",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNjE5YmJkYy03ZjIwLTQwNjQtODg4NC0zOGY1YTEzNjcxN2QifQ.HQbFdqP_T_1ZceUgMfOTQVVVyg6vU2IGVC9k-aEFwoc"
+  },
+{
+    "number": "32",
+	"label": "Вандал кофе, авроры 207с1",
+	"mark": "36249d43",
+	"address": "10.168.10.32/32",
+	"pubkey": "",
+    "device_id": "36249d43-1c4e-4eb3-933b-808f3bd3c3b6",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNjI0OWQ0My0xYzRlLTRlYjMtOTMzYi04MDhmM2JkM2MzYjYifQ.qE0SVWMR18lUS0h43Ix7pcmAAQR4WaQRsfhBmPkEPc8"
+  },
+{
+    "number": "33",
+	"label": "Cup-Cup, Партизанская 86",
+	"mark": "36c74409",
+	"address": "10.168.10.33/32",
+	"pubkey": "",
+    "device_id": "36c74409-551c-4051-9db7-f5eb08ca4e36",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNmM3NDQwOS01NTFjLTQwNTEtOWRiNy1mNWViMDhjYTRlMzYifQ.JfMqlo0N3Sqla0PX3bGisBWle0vLdExdBjUYh4COM3U"	
+  },
+	{
+    "number": "34",
+	"label": "Вандал кофе, солнечная 18",
+	"mark": "37081ffe",
+	"address": "10.168.10.34/32",
+	"pubkey": "",
+    "device_id": "37081ffe-ecc6-4ed6-84d8-2a5da55848ce",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNzA4MWZmZS1lY2M2LTRlZDYtODRkOC0yYTVkYTU1ODQ4Y2UifQ.bstOjAyYlgiFJhp7NYvFjheAt2ywKGuntibtugOloQ4"
+  },
+  {
+    "number": "35",
+	"label" :"БИКО, Мичурина 50",
+	"mark":"370d9b38",
+	"address": "10.168.10.35",
+    "device_id": "370d9b38-c1a4-4fba-aa9e-cad93c086b4a",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzNzBkOWIzOC1jMWE0LTRmYmEtYWE5ZS1jYWQ5M2MwODZiNGEifQ.JC_BpsbFeZcIhEkyWB6bVTD3vG7AQ93Zb16r4jijvew"
+  },
+  {
+    "number": "37",
+    "label": "Бико, Победы 77",
+	"mark":"38362e0e",
+	"address": "10.168.10.37",
+    "device_id": "38362e0e-b906-423c-a2da-f0e05309d14c",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzODM2MmUwZS1iOTA2LTQyM2MtYTJkYS1mMGUwNTMwOWQxNGMifQ.jPd8uRC15xGcqyv4uA_evfXoxwE3C0J1wchLL6mJRIE"
+  },
+  {
+    "number": "38",
+    "label": "",
+	"mark":"386b0eb0",
+	"address": "10.168.10.38",
+    "device_id": "386b0eb0-1b62-4c44-9781-510f35947560",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzODZiMGViMC0xYjYyLTRjNDQtOTc4MS01MTBmMzU5NDc1NjAifQ.bEogKnCc189SNPOV1WXHurKkyM6rft7H_ABurEhxrlQ"
+  },
+  {
+    "number": "39",
+	"label": "",
+	"mark":"392336ff",
+	"address": "10.168.10.39",
+    "device_id": "392336ff-e446-42d6-87f1-5ba874f53484",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOTIzMzZmZi1lNDQ2LTQyZDYtODdmMS01YmE4NzRmNTM0ODQifQ.j74NVKWdKKyBWu_uCFKy0IDyUvkDAxDz3ko_c4MiJ8A"
+  },
+{
+    "number": "40",
+	"label": "Mosaic coffee, Венцека",
+	"mark": "39b429ee",
+	"address": "10.168.10.40/32",
+	"pubkey": "",
+    "device_id": "39b429ee-6950-47ff-8eae-0468f088e2a0",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOWI0MjllZS02OTUwLTQ3ZmYtOGVhZS0wNDY4ZjA4OGUyYTAifQ.oT4rxJ3ndavc620iqQAB_a7ggLbillAzVsLGlhWxX3M"
+  },
+{
+    "number": "41",
+	"label": "Mosaic coffee, Первомайский спуск",
+	"mark": "39cd4ca5",
+	"address": "10.168.10.41/32",
+	"pubkey": "",
+    "device_id": "39cd4ca5-c506-42ec-b7eb-d925164b636c",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOWNkNGNhNS1jNTA2LTQyZWMtYjdlYi1kOTI1MTY0YjYzNmMifQ.ZN6iFL3wsWy-lS42Cz1R1q5eaK7kI5WejSs_Fh6fHNY"
+  },
+  {
+    "number": "42",
+	"label": "Вандал кофе, Куйбышева",
+	"mark": "3af4dca8",
+	"address": "10.168.10.42/32",
+	"pubkey": "",
+    "device_id": "3af4dca8-755c-4629-9ff8-e5a24ea9bf80",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzYWY0ZGNhOC03NTVjLTQ2MjktOWZmOC1lNWEyNGVhOWJmODAifQ.2uqzeiVxwzmZQBKxIFPja2k4Vtqi5cydaG6JXuY5Fgc"
+  },
+{
+    "number": "43",
+	"label": "Mosaic coffee, Солнечная 24",
+	"mark": "3c22e5d0",
+	"address": "10.168.10.43/32",
+	"pubkey": "",
+    "device_id": "3c22e5d0-ff0a-49cf-bb0d-3175e22de204",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzYzIyZTVkMC1mZjBhLTQ5Y2YtYmIwZC0zMTc1ZTIyZGUyMDQifQ.sU-IdHY7gc8ux2K8Ls4qJHsO0ZYGG4qWnJqOeTNAdYs"
+  },
+	{
+    "number": "45",
+	"label": "Mosaic coffee, Красноармейский спуск",
+	"mark": "3d9064a7",
+	"address": "10.168.10.45/32",
+    "device_id": "3d9064a7-ee57-4a33-8c06-fdc9bf87084f",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzZDkwNjRhNy1lZTU3LTRhMzMtOGMwNi1mZGM5YmY4NzA4NGYifQ.Bhyb5aftKAZ6zmsdW8zpkhj_R-wQOQO6cRM4g-Z38w4"
+  },
+	{
+    "number": "46",
+	"label": "Mosaic coffee, Ленинградский спуск",
+	"mark": "3dedbe48",
+	"address": "10.168.10.46/32",
+    "device_id": "3dedbe48-1a13-41b5-ab74-7cdbcc49004c",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzZGVkYmU0OC0xYTEzLTQxYjUtYWI3NC03Y2RiY2M0OTAwNGMifQ.c3jS5hzMWBvBvdUcRXGSc8troxvm1GKcDuL4xZ5m2Dw"
+  },
+  {
+    "number": "47",
+	"label": "Mosaic coffee, ЦСКА",
+	"mark": "3ea05efb",
+    "device_id": "3ea05efb-47de-4987-add3-f72fdeba438e",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzZWEwNWVmYi00N2RlLTQ5ODctYWRkMy1mNzJmZGViYTQzOGUifQ._gT_ClM5ELuWOa58vgRcIJuz-a_kGI1JFO1NdleO_6A"
+  },
+  {
+    "number": "51",
+    "label": "Бико, Физкультурная 103а",
+	"mark":"401fa1e3",
+	"address": "10.168.10.51",
+    "device_id": "401fa1e3-7574-411a-a29a-8de5f3082ab3",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MDFmYTFlMy03NTc0LTQxMWEtYTI5YS04ZGU1ZjMwODJhYjMifQ.7FHYHHqS17AQbrEQdK1vkKJh_OpN2Kvb9sGWtgaIOzc"
+  },
+  {
+    "number": "52",
+    "label": "Бико, Победы 104",
+	"mark":"403e186f",
+	"address": "10.168.10.52",
+    "device_id": "403e186f-34b3-4acb-aca9-6c4b05022091",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MDNlMTg2Zi0zNGIzLTRhY2ItYWNhOS02YzRiMDUwMjIwOTEifQ.iUiDoSgRCfpphGSG-2vilvMW6P9XJvVDwFCTRTJtgvI"
+  }
+]
