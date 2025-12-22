@@ -11,6 +11,15 @@ ssh mercury
 caja .      # file manager in MATE                                                      # prod server(конфиги sh на машине)
 ```
 
+## MinIO
+
+```bash
+docker exec -it minio sh # зайти в контейнер
+
+df -h /data             # посмотреть свободное место
+df -i /data             # посмотреть свободные inodes
+```
+
 ## Docker
 
 ```bash
