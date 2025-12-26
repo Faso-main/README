@@ -31,6 +31,9 @@ docker restart prod-prometheus-1                                        # пер
 docker exec prod-prometheus-1 cat /etc/prometheus/prometheus.yml        # 468c00934d97
 docker stats NAME_OF_SERVICE                                            # статистика контейнеров(мало пользы)
 docker inspect NAME_OF_SERVICE                                          # информация о контейнере(мало пользы)
+
+docker compose -f docker-compose.face-worker.yaml down                  # остановить контейнер 
+docker compose -f docker-compose.face-worker.yaml up -d --build         # поднять контейнер в фоне
 ```
 
 ## Мониторинг IT-инфраструктуры
