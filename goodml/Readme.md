@@ -32,6 +32,8 @@ docker exec prod-prometheus-1 cat /etc/prometheus/prometheus.yml        # 468c00
 docker stats NAME_OF_SERVICE                                            # статистика контейнеров(мало пользы)
 docker inspect NAME_OF_SERVICE                                          # информация о контейнере(мало пользы)
 
+docker logs -f NAME_OF_SERVICE -n 1000 -t | grep "31bv"
+
 docker compose -f docker-compose.face-worker.yaml down                  # остановить контейнер 
 docker compose -f docker-compose.face-worker.yaml up -d --build         # поднять контейнер в фоне
 ```
