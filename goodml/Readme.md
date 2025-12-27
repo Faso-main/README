@@ -8,7 +8,13 @@
 
 ```bash
 ssh mercury
-caja .      # file manager in MATE                                                      # prod server(конфиги sh на машине)
+caja .      # file manager in MATE                                        # prod server(конфиги sh на машине)
+```
+
+## Nvidia
+```bash
+lspci | grep -i nvidia                                                  # есть ли CUDA в целом
+nvidia-smi                                                              # проверка CUDA в runtime
 ```
 
 ## MinIO
