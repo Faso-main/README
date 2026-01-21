@@ -350,7 +350,7 @@ sudo -u postgres pg_dump faso_db > /var/backups/postgresql/faso_db_$(date +%Y%m%
 sudo -u postgres pg_dump faso_db | gzip > /var/backups/postgresql/faso_db_$(date +%Y%m%d).sql.gz
 
 # Контейнер
-docker exec -it CONTAINER_ID psql -U postgres pg_dump DB_NAME | gzip > /var/backups/DB_NAME__$(date +%Y%m%d).sql.gz
+docker exec CONTAINER_ID pg_dump -U postgres workees_collection | gzip > backup_$(date +%Y%m%d).sql.gz
 ```
 
 ### 19. Восстановление из резервной копии
