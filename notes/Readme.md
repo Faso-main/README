@@ -37,4 +37,4 @@ neofetch       # to get system info
 ## What to check
 
 neofetch
-how i make bootable scripts in ubuntu # chomd +x FILE_NAME.sh
+how i make bootable scripts in linux # chomd +x FILE_NAME.sh
