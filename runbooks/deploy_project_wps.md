@@ -3,22 +3,26 @@
 ## Подготовка сервера
 
 ### 1. Обновление системы
+
 ```bash
 sudo apt update && sudo apt -y upgrade
 ```
 
 ### 2. Установка базового программного обеспечения
+
 ```bash
 sudo apt install -y nodejs npm nginx
 ```
 
 ### 3. Установка NVM (Node Version Manager)
+
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 source ~/.bashrc
 ```
 
 ### 4. Установка конкретной версии Node.js
+
 ```bash
 nvm install 20.18.0
 nvm use 20.18.0
@@ -36,6 +40,7 @@ sudo ufw status
 ## Развертывание приложения
 
 ### 1. Клонирование проекта
+
 ```bash
 ssh-keygen
 cat ~/.ssh/id_ed25519.pub
@@ -46,12 +51,14 @@ cd REPO_NAME
 ```
 
 ### 2. Установка зависимостей и сборка
+
 ```bash
 npm ci
 npm run build
 ```
 
 ### 3. Создание рабочей директории
+
 ```bash
 sudo mkdir -p /var/www/faso312
 sudo rm -rf /var/www/faso312/*
@@ -59,16 +66,18 @@ sudo cp -r dist/* /var/www/faso312/
 ```
 
 ### 4. Настройка прав доступа
+
 ```bash
 sudo chown -R www-data:www-data /var/www/faso312
 sudo chmod -R 755 /var/www/faso312
 ```
 
-## Настройка PostgreSQL 
-### link (https://github.com/Faso-main/README/blob/main/PostgreSQL.md)
+## Настройка PostgreSQL
 
+### link (<https://github.com/Faso-main/README/blob/main/PostgreSQL.md>)
 
 ### 1. Установка PostgreSQL
+
 ```bash
 sudo apt update
 sudo apt -y install postgresql postgresql-contrib
@@ -76,6 +85,7 @@ sudo systemctl status postgresql
 ```
 
 ### 2. Создание пользователя и базы данных
+
 ```bash
 sudo -i -u postgres
 createuser --interactive --pwprompt faso_user
@@ -84,25 +94,32 @@ exit
 ```
 
 ### 3. Настройка аутентификации
+
 ```bash
 sudo nano /etc/postgresql/14/main/postgresql.conf
 ```
+
 Установить:
+
 ```
 password_encryption = scram-sha-256
 ```
 
 ### 4. Настройка доступа
+
 ```bash
 sudo nano /etc/postgresql/14/main/pg_hba.conf
 ```
+
 Добавить/изменить строки:
+
 ```
 local   all             all                                     scram-sha-256
 host    all             all             0.0.0.0/0               scram-sha-256
 ```
 
 ### 5. Перезапуск PostgreSQL
+
 ```bash
 sudo systemctl restart postgresql
 ```
@@ -127,11 +144,13 @@ const pool = new Pool({
 ## Настройка PM2 для управления процессами
 
 ### 1. Установка PM2
+
 ```bash
 sudo npm i pm2 -g
 ```
 
 ### 2. Запуск приложения
+
 ```bash
 pm2 start ваш_скрипт.js --name TenderHack
 pm2 startup ubuntu
@@ -139,6 +158,7 @@ pm2 save
 ```
 
 ### 3. Управление приложением
+
 ```bash
 pm2 status
 pm2 restart TenderHack
@@ -149,6 +169,7 @@ pm2 flush
 ## Настройка NGINX
 
 ### 1. Базовая конфигурация HTTP
+
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
@@ -174,6 +195,7 @@ server {
 ```
 
 ### 2. Проверка и применение конфигурации
+
 ```bash
 sudo nginx -t
 sudo systemctl reload nginx
@@ -182,16 +204,19 @@ sudo systemctl reload nginx
 ## Настройка SSL с Let's Encrypt
 
 ### 1. Установка Certbot
+
 ```bash
 sudo apt -y install certbot python3-certbot-nginx
 ```
 
 ### 2. Получение SSL-сертификата
+
 ```bash
 sudo certbot --nginx -d faso312.ru -d www.faso312.ru
 ```
 
 ### 3. Финальная конфигурация NGINX
+
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
@@ -244,6 +269,7 @@ server {
 ```
 
 ### 4. Применение изменений
+
 ```bash
 sudo nginx -t
 sudo systemctl reload nginx
@@ -252,6 +278,7 @@ sudo systemctl reload nginx
 ## Проверка работоспособности
 
 ### 1. Проверка статических файлов
+
 ```bash
 ls -l /var/www/faso312
 curl -I https://faso312.ru/
@@ -260,17 +287,20 @@ curl -I https://faso312.ru/assets/ваш_файл.js
 ```
 
 ### 2. Проверка API
+
 ```bash
 curl -s https://faso312.ru/api/health
 ```
 
 ### 3. Проверка логов
+
 ```bash
 sudo tail -n 100 /var/log/nginx/error.log
 pm2 logs TenderHack --lines 100 --timeline
 ```
 
 ### 4. Проверка подключения к базе данных
+
 ```bash
 psql -h localhost -U faso_user -d faso_db
 ```

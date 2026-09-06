@@ -1,23 +1,28 @@
 # Пример обучающего документа
 
-## Изображение:
+## Изображение
+
 ![Пример изображения](https://www.fabrika-kartin.ru/productimages/canvas/med/75/16/p2zru6p6jwseb9n3.jpg)
 
 *Рис. 1: Картина*
 
 ### Ссылки
+
 **Пример**: [Нажми меня](https://memexpert.net/static/shrek-ishchi-sebya.jpg)
 
-### Примечания:
+### Примечания
+>
 > **Примечание**: Для работы с визуализацией необходимо установить `matplotlib`.
 
-### Разделения:
+### Разделения
+
 ---
 ***или***
 <!-- разделитель -->
 <div style="height:1px; background:linear-gradient(90deg, transparent, #ccc, transparent); margin: 20px 0;"></div>
 
 **Пример: заголовок примера с кодом**
+
 ```python
 import pandas as pd
 data = {
@@ -28,10 +33,11 @@ data = {
 ```
 
 ---
+
 ![Описание изображения](images/example.png)
 ---
 
+### Сервисы
 
-### Сервисы:
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3+-red?logo=pandas)
